@@ -1,0 +1,16 @@
+{
+  "name": "html-to-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg convert.js -o html2img"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-to-image": "^4.0.0"
+  }
+}
