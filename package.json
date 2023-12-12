@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg convert.js -o html2img"
+    "build": "pkg convert.js -o ./dist/html2img.exe"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/puppeteer/.local-chromium",
+      "path-to-executable/puppeteer"
+    ]
   },
   "keywords": [],
   "author": "",
